@@ -1,0 +1,73 @@
+.contacs_section {
+  display: flex;
+
+  width: 100%;
+
+  padding: 50px 100px;
+
+  background-color: #000000;
+  justify-content: center;
+}
+
+.contacs {
+  margin-right: 100px;
+}
+
+.contacs_title {
+  font-size: 50px;
+
+  margin-bottom: 15px;
+}
+
+.position {
+  display: flex;
+
+  align-items: center;
+}
+
+.position:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contacs_address,
+.contacs_mail,
+.contacs_phone {
+  padding-left: 15px;
+  font-size: 17px;
+}
+
+.map{
+  width: 560px;
+  height: 400px;
+}
+
+
+@media (max-width: 1230px) {
+  .contacs_section {
+    padding: 50px 20px;
+  }
+  .contacs{
+    margin-right: 15px
+  }
+}
+
+@media (max-width: 800px) {
+  .contacs_section {
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 25px;
+  }
+
+  .contacs {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .map{
+    width: 100%;
+  }
+
+  
+}

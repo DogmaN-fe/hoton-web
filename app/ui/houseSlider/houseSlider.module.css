@@ -1,0 +1,71 @@
+.slider {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1200px;
+
+  margin-bottom: 100px;
+
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.slider_house_cards {
+  display: flex;
+
+
+  transition: transform 1s ease;
+}
+
+.buttons {
+  position: absolute;
+
+  display: flex;
+  justify-content: space-between;
+
+  width: 100px;
+
+  left: 10%;
+  bottom: 3%;
+}
+
+.slider_button {
+  padding: 1px 10px;
+
+  font-size: 20px;
+
+  border: none;
+  background-color: #CD853F;
+
+  transition: background-color 0.5s ease;
+}
+
+.slider_button:hover {
+  background-color: #a0512d49;
+}
+
+@media (max-width: 1230px) {
+  .slider {
+    width: 95%;
+  }
+}
+
+@media (max-width: 1130px) {
+  .slider {
+    width: 95%;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .slider {
+    width: 100%;
+  }
+
+  .buttons{
+    display: none;
+  }
+}
