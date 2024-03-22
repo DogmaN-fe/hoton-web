@@ -1,9 +1,8 @@
-import PhotoSlider from "./ui/photoSlider/photoSlider";
 import styles from "./page.module.css";
+import AdvantagesSection from "./ui/advantagesSection/advantagesSection";
 import ConceptSection from "./ui/conceptSection/conceptSection";
 import HouseSlider from "./ui/houseSlider/houseSlider";
-import AdvantagesSection from "./ui/advantagesSection/advantagesSection";
-import ContacsSection from "./ui/contacsSection/contacsSection";
+import PhotoSlider from "./ui/photoSlider/photoSlider";
 
 export default function Page() {
   return (
@@ -23,8 +22,6 @@ export default function Page() {
           allowFullScreen
         ></iframe>
       </section> */}
-
-      <ContacsSection />
     </main>
   );
 }

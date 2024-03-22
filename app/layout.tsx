@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import NavigationLogo from "./ui/navigationLogo/navigationLogo";
-import Navigation from "./ui/navigation/navigation";
 import { roboto } from "./lib/fonts";
 import styles from "@/app/layout.module.css";
-import MainLogoAndText from "./ui/mainLogoAndText/mainLogoAndText";
 import Link from "next/link";
+import NavigationLogo from "./ui/navigationLogo/navigationLogo";
+import Navigation from "./ui/navigation/navigation";
+import MainLogoAndText from "./ui/mainLogoAndText/mainLogoAndText";
+import ContacsSection from "./ui/contacsSection/contacsSection";
 
 export const metadata: Metadata = {
   title: "Хотон Глэмпинг | Погружение в колорит природы",
-  description: "Аршан-Хотон Глэмпинг – погружение в колорит степной природы при высоком уровне сервиса",
+  description:
+    "Аршан-Хотон Глэмпинг – погружение в колорит степной природы при высоком уровне сервиса",
 };
 
 export default function RootLayout({
@@ -34,8 +36,18 @@ export default function RootLayout({
           <MainLogoAndText />
         </header>
         {children}
-        <footer>
-          
+        <footer className={styles.footer}>
+          <ContacsSection />
+          <div className={styles.footer_partners}>
+            <p className={styles.footer_partners_title}>Наши партнеры:</p>
+            <a href="#" className={styles.footer_partners_partner}>
+              Аршан-глемпинг
+            </a>
+          </div>
+          <div className={styles.footer_copyright_and_yaer}>
+            <p className={styles.footer_copyright}>© Хотон-глэмпинг</p>
+            <p className={styles.footer_year}>2024, Официальный сайт</p>
+          </div>
         </footer>
       </body>
     </html>

@@ -89,10 +89,10 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #FDFFF5;
+  background: #f7f8f4;
 
   font-size: 20px;
-  color: #fdfff5;
+  color: #f7f8f4;
 }
 
 a {

@@ -21,6 +21,7 @@ export default function HouseSlider(): ReactElement {
         third:
           "Внутри юрты расположены все необходимые удобства для комфортного проживания. Здесь есть кухня-гостиная с современной техникой, спальня  и ванная комната. Также в доме есть видовая терраса с зоной для отдыха и потрясающим видом на город.",
       },
+      roomType: "433998",
     },
     {
       photo: slide_2.src,
@@ -31,6 +32,7 @@ export default function HouseSlider(): ReactElement {
         second:
           "Стильные видовые дома с панорамными окнами и верандами. Оснащены всем необходимым для комфортного проживания: кухня, ванная комната, кухня-гостиная, спальня с кроватью king-size,детская комната с раздельными кроватями, дом оснащен телевизором и кондиционером.  ",
       },
+      roomType: "433999",
     },
   ];
 
@@ -93,6 +95,7 @@ export default function HouseSlider(): ReactElement {
               photo={houseCard.photo}
               title={houseCard.title}
               description={houseCard.description}
+              roomType={houseCard.roomType}
             />
           );
         })}

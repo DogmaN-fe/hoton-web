@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mainLogo from "@/public/navigationLogo.svg";
+import mainLogo from "@/public/Logo.jpg";
 import styles from "./mainLogoAndText.module.css";
 import { ReactElement } from "react";
 import BookingButton from "../bookingButton/bookingButton";
@@ -11,7 +11,7 @@ export default function MainLogoAndText(): ReactElement {
         <Image
           className={styles.main_logo_img}
           src={mainLogo}
-          width={300}
+          width={350}
           height={300}
           alt={"Логотип"}
         />

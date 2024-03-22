@@ -2,6 +2,7 @@ export interface IHouseCard {
   photo: string;
   title: string;
   description: IDescriptionForHouseCard;
+  roomType: string
 }
 
 export interface IDescriptionForHouseCard {
