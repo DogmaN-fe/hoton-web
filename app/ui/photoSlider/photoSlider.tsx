@@ -85,6 +85,7 @@ export default function PhotoSlider(): ReactElement {
                 alt={`фото-${image}`}
                 fill={true}
                 sizes="(max-width: 1200px)"
+                loading="lazy" 
               />
             </div>
           );
