@@ -1,6 +1,7 @@
 "use client";
 
 import { ReactElement, useEffect, useState } from "react";
+import Image from "next/image";
 import styles from "./photoSlider.module.css";
 
 import slide_1 from "@/public/photoSlider/DSCF5936.jpg";
@@ -13,7 +14,6 @@ import slide_7 from "@/public/photoSlider/DSCF5982.jpg";
 import slide_8 from "@/public/photoSlider/DSCF5994.jpg";
 import slide_9 from "@/public/photoSlider/DSCF6010.jpg";
 import slide_10 from "@/public/photoSlider/DSCF6023.jpg";
-import ExportedImage from "next-image-export-optimizer";
 
 export default function PhotoSlider(): ReactElement {
   const images = [
@@ -80,7 +80,7 @@ export default function PhotoSlider(): ReactElement {
         {images.map((image) => {
           return (
             <div key={image} className={styles.slider_photo}>
-              <ExportedImage 
+              <Image
                 src={image}
                 alt={`фото-${image}`}
                 fill={true}

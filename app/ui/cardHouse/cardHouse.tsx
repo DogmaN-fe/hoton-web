@@ -1,8 +1,8 @@
 import { ReactElement } from "react";
+import Image from "next/image";
 import styles from "./cardHouse.module.css";
 import { IDescriptionForHouseCard } from "@/app/lib/types";
 import PriceButton from "../priceButton/priceButton";
-import ExportedImage from "next-image-export-optimizer";
 
 export default function CardHouse({
   photo,
@@ -34,7 +34,7 @@ export default function CardHouse({
           <PriceButton roomType={roomType} />
         </div>
         <div className={styles.card_photo}>
-          <ExportedImage  src={photo} alt={`фото дома - ${photo}`} fill={true} />
+          <Image src={photo} alt={`фото дома - ${photo}`} fill={true} />
         </div>
       </div>
     </article>
