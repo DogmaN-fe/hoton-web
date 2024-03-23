@@ -22,7 +22,7 @@
   margin-bottom: 130px;
 
   width: 1200px;
-  height: 600px;
+  height: 700px;
 }
 
 @media (max-width: 1130px) {
@@ -38,7 +38,7 @@
   }
 
   .section_video {
-    width: 80%;
+    width: 90%;
     height: 300px;
     margin-bottom: 30px;
   }
