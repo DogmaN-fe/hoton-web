@@ -10,7 +10,7 @@ export default function ConceptSection(): ReactElement {
           Место силы и комфорта в окружении цветущей степи.{" "}
         </h2>
         <p className={styles.concept_description}>
-          Уникальное место для перезагрузки отдыха душой и телом.
+          Уникальное место для перезагрузки отдыха душой и телом
         </p>
         <BookingButton className={styles.concept_booking_button} />
       </div>
