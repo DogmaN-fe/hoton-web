@@ -28,9 +28,11 @@ export default function CardHouse({
       <div className={styles.darkness}>
         <div className={styles.card_info}>
           <h3 className={styles.card_info_title}>{title}</h3>
-          <p className={styles.card_info_description}>{description.first}</p>
-          <p className={styles.card_info_description}>{description.second}</p>
-          <p className={styles.card_info_description}>{description.third}</p>
+          <div className={styles.card_info_descriptions}>
+            <p className={styles.card_info_description}>{description.first}</p>
+            <p className={styles.card_info_description}>{description.second}</p>
+            <p className={styles.card_info_description}>{description.third}</p>
+          </div>
           <PriceButton roomType={roomType} />
         </div>
         <div className={styles.card_photo}>

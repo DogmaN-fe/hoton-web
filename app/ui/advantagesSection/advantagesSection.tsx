@@ -29,7 +29,7 @@ export default function AdvantagesSection(): ReactElement {
         {icons.map((element, index) => {
           return <article key={index} className={styles.advantage}>
             <div className={styles.advantage_circle}>
-              <Image className={styles.advantage_icon} src={element.icon} alt={element.description} width={56} height={56}/>
+              <Image className={styles.advantage_icon} src={element.icon} alt={element.description} fill={true}/>
             </div>
             <p className={styles.advantage_description}>{element.description}</p>
           </article>;

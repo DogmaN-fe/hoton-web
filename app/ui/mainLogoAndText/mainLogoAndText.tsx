@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mainLogo from "@/public/Logo.png";
+import mainLogo from "@/public/yurt_cbxgxznwt725.svg";
 import styles from "./mainLogoAndText.module.css";
 import { ReactElement } from "react";
 import BookingButton from "../bookingButton/bookingButton";

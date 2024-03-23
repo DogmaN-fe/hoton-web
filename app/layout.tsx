@@ -7,6 +7,7 @@ import NavigationLogo from "./ui/navigationLogo/navigationLogo";
 import Navigation from "./ui/navigation/navigation";
 import MainLogoAndText from "./ui/mainLogoAndText/mainLogoAndText";
 import ContacsSection from "./ui/contacsSection/contacsSection";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Хотон Глэмпинг | Погружение в колорит природы",
@@ -21,6 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
+      <Head>
+      <link rel="icon" href="@/public/yurt_cbxgxznwt725.ico" sizes="any" />
+      </Head>
       <body className={roboto.className}>
         <header id="header" className={styles.header}>
           <div className={styles.header_navigation}>

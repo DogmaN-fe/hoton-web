@@ -22,9 +22,9 @@ export default function ContacsSection(): ReactElement {
           <Image src={mail} alt="иконка локатора" width={16} height={16} />
           <Link
             className={styles.contacs_mail}
-            href="mailto:mail@arshanglamping.ru"
+            href="mailto:hoton.glemping@yandex.ru"
           >
-            mail@arshanglamping.ru
+            hoton.glemping@yandex.ru
           </Link>
         </span>
         <span className={styles.position}>
