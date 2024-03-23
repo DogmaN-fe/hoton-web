@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/public/Logo.jpg";
+import logo from "@/public/Logo.png";
 import styles from "./navigationLogo.module.css";
 import { ReactElement } from "react";
 
