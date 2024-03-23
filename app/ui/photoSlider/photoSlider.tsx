@@ -81,7 +81,7 @@ export default function PhotoSlider(): ReactElement {
           return (
             <div key={image} className={styles.slider_photo}>
               <Image
-                src={image}
+                src={`/${image}`}
                 alt={`фото-${image}`}
                 fill={true}
                 sizes="(max-width: 1200px)"
