@@ -4,16 +4,16 @@ import { ReactElement, useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "./photoSlider.module.css";
 
-import slide_1 from "../../../public/photoSlider/DSCF5936.jpg";
-import slide_2 from "../../../public/photoSlider/DSCF5939.jpg";
-import slide_3 from "../../../public/photoSlider/DSCF5953.jpg";
-import slide_4 from "../../../public/photoSlider/DSCF5964.jpg";
-import slide_5 from "../../../public/photoSlider/DSCF5974.jpg";
-import slide_6 from "../../../public/photoSlider/DSCF5977.jpg";
-import slide_7 from "../../../public/photoSlider/DSCF5982.jpg";
-import slide_8 from "../../../public/photoSlider/DSCF5994.jpg";
-import slide_9 from "../../../public/photoSlider/DSCF6010.jpg";
-import slide_10 from "../../../public/photoSlider/DSCF6023.jpg";
+import slide_1 from "@/public/photoSlider/DSCF5936.png";
+import slide_2 from "@/public/photoSlider/DSCF5939.png";
+import slide_3 from "@./public/photoSlider/DSCF5953.png";
+import slide_4 from "@/public/photoSlider/DSCF5964.png";
+import slide_5 from "@/public/photoSlider/DSCF5974.png";
+import slide_6 from "@/public/photoSlider/DSCF5977.png";
+import slide_7 from "@/public/photoSlider/DSCF5982.png";
+import slide_8 from "@/public/photoSlider/DSCF5994.png";
+import slide_9 from "@/public/photoSlider/DSCF6010.png";
+import slide_10 from "@/public/photoSlider/DSCF6023.png";
 
 export default function PhotoSlider(): ReactElement {
   const images = [

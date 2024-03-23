@@ -3,8 +3,8 @@
 import { ReactElement, useState } from "react";
 import styles from "./houseSlider.module.css";
 
-import slide_1 from "@/public/houseSlider/photo_5456615534658444602_y.jpg";
-import slide_2 from "@/public/houseSlider/photo_5456615534658444603_y.jpg";
+import slide_1 from "@/public/houseSlider/photo_5456615534658444602_y.png";
+import slide_2 from "@/public/houseSlider/photo_5456615534658444603_y.png";
 import CardHouse from "../cardHouse/cardHouse";
 import { IHouseCard } from "@/app/lib/types";
 
