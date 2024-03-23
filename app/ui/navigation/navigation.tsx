@@ -48,7 +48,7 @@ export default function Navigation(): ReactElement {
       <Link className={styles.navigation_link} href="/reservations">
         Акции
       </Link>
-      <Link className={styles.navigation_link} href="#">
+      <Link className={styles.navigation_link} href="/#partners">
         Партнеры
       </Link>
       <Link

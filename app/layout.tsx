@@ -42,7 +42,7 @@ export default function RootLayout({
         {children}
         <footer className={styles.footer}>
           <ContacsSection />
-          <div className={styles.footer_partners}>
+          <div id="partners" className={styles.footer_partners}>
             <p className={styles.footer_partners_title}>Наши партнеры:</p>
             <a href="#" className={styles.footer_partners_partner}>
               Аршан-глемпинг
