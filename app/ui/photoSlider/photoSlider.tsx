@@ -6,7 +6,7 @@ import styles from "./photoSlider.module.css";
 
 import slide_1 from "@/public/photoSlider/DSCF5936.png";
 import slide_2 from "@/public/photoSlider/DSCF5939.png";
-import slide_3 from "@./public/photoSlider/DSCF5953.png";
+import slide_3 from "@/public/photoSlider/DSCF5953.png";
 import slide_4 from "@/public/photoSlider/DSCF5964.png";
 import slide_5 from "@/public/photoSlider/DSCF5974.png";
 import slide_6 from "@/public/photoSlider/DSCF5977.png";
@@ -81,7 +81,7 @@ export default function PhotoSlider(): ReactElement {
           return (
             <div key={image} className={styles.slider_photo}>
               <Image
-                src={`/${image}`}
+                src={`${image}`}
                 alt={`фото-${image}`}
                 fill={true}
                 sizes="(max-width: 1200px)"
