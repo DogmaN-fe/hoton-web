@@ -94,8 +94,8 @@
     width: 800px;
     height: 350px;
   }
-
-  .slider_button {
-    display: none;
+  .slider_button{
+    
+  background-color: #00000086;
   }
 }
