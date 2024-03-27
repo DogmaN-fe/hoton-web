@@ -10,7 +10,7 @@ export default function Page(): ReactElement {
 
   return (
     <main className={styles.main}>
-      <iframe width={"95%"} height={900} src={address}></iframe>
+      <iframe className={styles.main_reservations} src={address}></iframe>
     </main>
   );
 }

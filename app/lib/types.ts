@@ -1,14 +1,8 @@
 export interface IHouseCard {
   photo: string;
   title: string;
-  description: IDescriptionForHouseCard;
+  description: string;
   roomType: string
-}
-
-export interface IDescriptionForHouseCard {
-  first: string;
-  second?: string;
-  third?: string;
 }
 
 export interface IAdvantageCard {

@@ -8,7 +8,7 @@ import icon_2 from "@/public/advantages/breakfast_7e7vm8onfdrh.svg";
 import icon_3 from "@/public/advantages/jeep_m6wp9yijkgvk.svg";
 import icon_4 from "@/public/advantages/yurt_ljzrq4jsid0m.svg";
 import icon_5 from "@/public/advantages/pet_d3vvkgj6ryfx.svg";
-import icon_6 from "@/public/advantages/swing_uric1bki2f4z.svg";
+import icon_6 from "@/public/advantages/steppe_wy1i2n9ff25p.svg";
 
 export default function AdvantagesSection(): ReactElement {
   const icons: IAdvantageCard[] = [

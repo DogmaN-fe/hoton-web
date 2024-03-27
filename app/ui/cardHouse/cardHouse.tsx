@@ -1,7 +1,6 @@
 import { ReactElement } from "react";
 import Image from "next/image";
 import styles from "./cardHouse.module.css";
-import { IDescriptionForHouseCard } from "@/app/lib/types";
 import PriceButton from "../priceButton/priceButton";
 
 export default function CardHouse({
@@ -12,7 +11,7 @@ export default function CardHouse({
 }: {
   photo: string;
   title: string;
-  description: IDescriptionForHouseCard;
+  description: string;
   roomType: string;
 }): ReactElement {
   return (
@@ -22,16 +21,14 @@ export default function CardHouse({
         background: `url(${photo})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        WebkitBackgroundSize: "100% 100%",
+        WebkitBackgroundSize: "100% 110%",
       }}
     >
       <div className={styles.darkness}>
         <div className={styles.card_info}>
           <h3 className={styles.card_info_title}>{title}</h3>
           <div className={styles.card_info_descriptions}>
-            <p className={styles.card_info_description}>{description.first}</p>
-            <p className={styles.card_info_description}>{description.second}</p>
-            <p className={styles.card_info_description}>{description.third}</p>
+            <p className={styles.card_info_description}>{description}</p>
           </div>
           <PriceButton roomType={roomType} />
         </div>
