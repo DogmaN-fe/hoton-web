@@ -10,8 +10,7 @@ export default function Navigation(): ReactElement {
     const targetId = e.target.getAttribute("href").substring(2);
 
     console.log(window.location.href);
-    
-    
+
     if (window.location.href.includes("/reservations")) {
       window.location.href = `/#${targetId}`;
     }

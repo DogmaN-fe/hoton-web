@@ -23,16 +23,25 @@ export default function AdvantagesSection(): ReactElement {
   return (
     <section id="advantage" className={styles.advantages_section}>
       <div className={styles.advantages_text}>
-      <p className={styles.advantages_title}>ПРЕИМУЩЕСТВА</p>
+        <p className={styles.advantages_title}>ПРЕИМУЩЕСТВА</p>
       </div>
       <div className={styles.advantages_icons_and_description}>
         {icons.map((element, index) => {
-          return <article key={index} className={styles.advantage}>
-            <div className={styles.advantage_circle}>
-              <Image className={styles.advantage_icon} src={element.icon} alt={element.description} fill={true}/>
-            </div>
-            <p className={styles.advantage_description}>{element.description}</p>
-          </article>;
+          return (
+            <article key={index} className={styles.advantage}>
+              <div className={styles.advantage_circle}>
+                <Image
+                  className={styles.advantage_icon}
+                  src={element.icon}
+                  alt={element.description}
+                  fill={true}
+                />
+              </div>
+              <p className={styles.advantage_description}>
+                {element.description}
+              </p>
+            </article>
+          );
         })}
       </div>
     </section>
