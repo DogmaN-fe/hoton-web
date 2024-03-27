@@ -84,7 +84,7 @@ export default function PhotoSlider(): ReactElement {
                 src={`${image}`}
                 alt={`фото-${image}`}
                 fill={true}
-                rel="preload"
+                priority
               />
             </div>
           );
