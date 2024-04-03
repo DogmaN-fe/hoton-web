@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <Head>
-      <link rel="icon" href="@/public/yurt_cbxgxznwt725.ico" sizes="any" />
+        <link rel="icon" href="@/public/yurt_cbxgxznwt725.ico" sizes="any" />
       </Head>
       <body className={roboto.className}>
         <header id="header" className={styles.header}>
@@ -32,9 +32,9 @@ export default function RootLayout({
             <Navigation />
             <Link
               className={styles.header_navigation_phone}
-              href={"tel:+79881562861"}
+              href={"tel:+79939090808"}
             >
-              +7 (988) 156-28-61
+              +7 (993) 909-08-08
             </Link>
           </div>
           <MainLogoAndText />
