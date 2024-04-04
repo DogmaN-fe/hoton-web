@@ -12,7 +12,7 @@ import Head from "next/head";
 export const metadata: Metadata = {
   title: "Хотон Глэмпинг | Погружение в колорит природы",
   description:
-    "Аршан-Хотон Глэмпинг – погружение в колорит степной природы при высоком уровне сервиса",
+    "Хотон Глэмпинг – погружение в колорит степной природы при высоком уровне сервиса",
 };
 
 export default function RootLayout({
